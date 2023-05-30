@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class StoryBoard extends StatelessWidget {
-  const StoryBoard({Key? key}) : super(key: key);
+  String ? path;
+   StoryBoard({Key? key,this.path}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('App Builder > Navigation Menu > StoryBoard'));
+    return Center(child: InkWell(
+        onTap: (){
+          context.pop();
+        },
+        child: Text(path == null ? 'App Builder > Navigation Menu > StoryBoard' : path!)));
   }
 }
