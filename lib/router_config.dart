@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:navigation_practice/main.dart';
-import 'package:navigation_practice/screens/app_builder/app_builder.dart';
-import 'package:navigation_practice/screens/app_builder/navigation_menu.dart';
-import 'package:navigation_practice/screens/app_builder/storyboard.dart';
-import 'package:navigation_practice/screens/app_builder/ui_builder.dart';
-import 'package:navigation_practice/screens/dashboard/dashboard.dart';
-import 'package:navigation_practice/screens/dashboard/marketplace.dart';
-import 'package:navigation_practice/screens/dashboard/organisation.dart';
+
+import 'flutter_flow/screens/app_builder/app_builder.dart';
+import 'flutter_flow/screens/app_builder/navigation_menu.dart';
+import 'flutter_flow/screens/app_builder/storyboard.dart';
+import 'flutter_flow/screens/app_builder/ui_builder.dart';
+import 'flutter_flow/screens/dashboard/dashboard.dart';
+import 'flutter_flow/screens/dashboard/marketplace.dart';
+import 'flutter_flow/screens/dashboard/organisation.dart';
 
 GlobalKey<NavigatorState> navigatorkey = GlobalKey<NavigatorState>();
 GlobalKey<NavigatorState> shellNavigatorkey = GlobalKey<NavigatorState>();

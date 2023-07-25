@@ -6,7 +6,6 @@ void main(){
   runApp(MyApp());
 }
 
-
 AppConfig config = AppConfig();
 
 class MyApp extends StatelessWidget {
@@ -48,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               children: [
                 ListTile(
-                  title: url == 'dashboard' ? Text('Dashboard',style: TextStyle(color: Colors.red),):  Text('Dashboard'),
+                  title: url == 'dashboard' ? Text('Dashboard',style: TextStyle(color: Colors.red),) :  Text('Dashboard'),
                   onTap: (){
                     GoRouter.of(context).pushNamed('dashboard');
                   },
